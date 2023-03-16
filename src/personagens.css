@@ -74,13 +74,30 @@ body {
   height: min(32.5520833333vw,625px);
   clip-path: polygon(min(12.2395833333vw, 235px) 0, min(29.9479166667vw, 575px) 0, min(17.7083333333vw, 340px) min(32.5520833333vw, 625px), 0 min(32.5520833333vw, 625px));
   transition: background .3s;
+  filter: saturate(0%);
 }
 
 #characters-box ul li a:hover {
   cursor: pointer;
-  background-color: rgba(3, 87, 243, 0.5);
-  background-size: 120%;
+  background-size: 110%;
   transition: 0.3s;
+  filter: saturate(100%);
+}
+
+#NeroColor a:hover{
+  background-color: rgba(3, 87, 243, 0.5);
+}
+
+#DanteColor a:hover{
+  background-color: rgba(241, 10, 49, 0.5);
+}
+
+#VColor a:hover{
+  background-color: rgba(10, 24, 8, 0);
+}
+
+#VergilColor a:hover{
+  background-color: rgb(13, 250, 250);
 }
 
 #characters-box ul a span {
