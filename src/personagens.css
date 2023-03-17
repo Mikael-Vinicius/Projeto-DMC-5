@@ -87,11 +87,11 @@
 }
 
 #VColor a:hover{
-  background-color: rgba(10, 24, 8, 0);
+  background-color: rgba(0, 0, 0, 0.9)
 }
 
 #VergilColor a:hover{
-  background-color: rgb(13, 250, 250);
+  background-color: rgba(0, 0, 255, 0.3)
 }
 
 #characters-box ul a span {

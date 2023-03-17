@@ -19,9 +19,15 @@ function Home() {
             
         <div className='descricao'>
             <main>
-                <h2 className='texto'>Bem-vindo(a) ao Devil May Cry 5 Site</h2>
+                <h2 className='texto'>Bem-vindo(a) ao Site Do Devil May Cry 5 </h2>
                 <p className='texto'>Este site é dedicado a tudo relacionado ao jogo Devil May Cry 5, incluindo informações sobre os personagens, armas e muito mais. Navegue pelo menu acima para encontrar o que você procura.</p>
             </main>
+        </div>
+
+        <div className='informacoes'>
+            <p>A série Devil May Cry possui mais de 16 milhões de vendas em todo o mundo.
+O primeiro jogo desta popular série a fazer sua estreia na geração atual, trazendo caos estiloso contra
+inimigos diabólicos nas mãos de Devil Hunters com sangue de demônio em suas veias.</p>
         </div>
         <Footer />
         </body>

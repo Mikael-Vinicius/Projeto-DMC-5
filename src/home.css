@@ -51,12 +51,23 @@
 
   .descricao {
     display: flex;
-    margin-right: 50%;
-    max-width: 100%;
     height: fit-content;
-    bottom: 500px;
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.2);
   }
 
+  .descricao p {
+    padding: 20px;
+  }
+
+  .descricao h2 {
+    position: relative;
+    z-index: 1;
+    letter-spacing: -2px;
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 0 0 16px #000;
+  }
   
   h2 {
     margin-top: 0;
@@ -70,7 +81,22 @@
     color: white;
     display: block;
     width: min(23.4375vw,450px);
-    font-family: "Noto Sans JP",sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 3.5vh;
     text-shadow: 0 0 20px rgba(0,0,0,.5), 0 0 20px rgba(0,0,0,.5), 0 0 20px rgba(0,0,0,.5), 0 0 20px rgba(0,0,0,.5);
+    padding: 20px;
+  }
+
+  .informacoes {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.5vw;
+    padding: 0 0 2vw;
+    color: #dfdfdf;
+    line-height: 1.6;
+    padding: 2vw 0;
+    position: relative;
+  }
+
+  .informacoes {
+    padding: 20px;
   }
