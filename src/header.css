@@ -1,0 +1,15 @@
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #212121;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    letter-spacing: 2px;
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+    background-image: url("https://images4.alphacoders.com/948/948585.png");
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}

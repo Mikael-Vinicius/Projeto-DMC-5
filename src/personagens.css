@@ -5,12 +5,6 @@
   box-sizing: 0;
 }
 
-body {
-	font-family: 'Poppins', sans-serif;
-	max-width: 1280px;
-	margin: 0 auto;
-  background-color: hsl(0, 0%, 5%);
-}
 
 .imagem {
   margin-right: 10px;

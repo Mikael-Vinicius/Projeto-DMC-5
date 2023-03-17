@@ -3,7 +3,12 @@ import vImage from "../imagens/Vimage.png"
 import DanteImg from "../imagens/DanteimgEdit.png"
 import NeroEdit from '../imagens/neroEdit.png'
 import logo from '../logo.svg';
+import '../home.css'
 import '../personagens.css';
+import '../footer.css'
+
+import Header from '../componentes/header';
+import Footer from '../componentes/footer';
 
 function Personagens() {
     return (
@@ -17,7 +22,9 @@ function Personagens() {
       
           <link rel="stylesheet" href="App.css"/>
       </head>
-      <body>
+      <body className='personagensBackground'>
+        <Header />
+        <div className='boddy'>
           <div id="characters-box">
               <ul id="characters-list">
                   <li id='NeroColor'className="transform: translate(0px, 0px); opacity: 1;">
@@ -43,6 +50,8 @@ function Personagens() {
               </ul>
           </div>
           <script src="./src/js/index.js"></script>
+          <Footer />
+          </div>
       </body>
       </html>
     );
