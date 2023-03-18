@@ -4,14 +4,13 @@
     overflow: hidden;
     letter-spacing: 2px;
     padding: 0px;
-    text-align: center;
+    align-items: center;
     justify-content: space-evenly;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
-    margin: 0 0.5vw;
     opacity: 0.9;
 }
 

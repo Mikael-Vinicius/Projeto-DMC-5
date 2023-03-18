@@ -14,9 +14,9 @@ function Header(){
 <body>
     <header>
         <nav>
-            <ul className='header'>
+            <ul className='header' >
                 <img className='logo' src={logo}/>
-                <li><Link to="/">Home</Link></li>
+                <li className=""><Link to="/">Home</Link></li>
                 <li><Link to="/personagens">Personagens</Link></li>
                 <li><a href="#">Armas</a></li>
             </ul>

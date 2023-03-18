@@ -28,7 +28,7 @@ function Personagens() {
           <div id="characters-box">
               <ul id="characters-list">
                   <li id='NeroColor'className="transform: translate(0px, 0px); opacity: 1;">
-                      <a href='' style={{backgroundImage: `url(${NeroEdit})`}}>
+                      <a href='/personagens/nero' style={{backgroundImage: `url(${NeroEdit})`}}>
                           <span>NERO</span>
                       </a>
                   </li>
