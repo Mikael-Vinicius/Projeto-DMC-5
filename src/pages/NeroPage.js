@@ -2,9 +2,11 @@ import React from "react";
 import '../header.css'
 import '../characterPage.css'
 import logoName from '../imagens/glow.png'
+import neroImage from '../imagens/NeroImage2.png'
 import { Link } from 'react-router-dom';
 import Header from "../componentes/header";
 import Footer from "../componentes/footer";
+import logoMusic from '../imagens/DMC5_Devil_Trigger.webp'
 
  const logo = "https://www.seekpng.com/png/full/34-349162_devil-may-cry5-devil-may-cry-5-logo.png"
 function NeroPage() {
@@ -16,6 +18,10 @@ function NeroPage() {
 <body>
     <Header />
     <div className="background">
+    <main className="main-content">
+    <div className="sideBar">
+            <img src={logoName}/>
+        </div>
     <div class="container">
     <iframe allowFullScreen width="100%" height="100%" className="video"
 		 src="https://www.youtube.com/embed/yX5x-Ne6RdQ">
@@ -23,13 +29,37 @@ function NeroPage() {
         </iframe>
         </div>
 
-        <div className="imgContainer">
-            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6b0bf93-bf66-4551-8b9b-b723ee634429/dce48lp-eb691403-9c38-4b49-8861-3a8e4a654285.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2YjBiZjkzLWJmNjYtNDU1MS04YjliLWI3MjNlZTYzNDQyOVwvZGNlNDhscC1lYjY5MTQwMy05YzM4LTRiNDktODg2MS0zYThlNGE2NTQyODUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE1ZmNej-_5dsPt9oTaylG7Z90lUJAuMOSuGt1B5mes"/>
-        </div>
+       
+       
 
-        <div className="sideBar">
-            <img src={logoName}/>
+        
+        <div className="imgContainer">
+            <img src={neroImage}/>
         </div>
+        </main>
+        <section className="informacoesP">
+        <div className="descricao"> 
+        <p>Nome: Nero</p>
+        <p>Idade: 24</p>
+        <p>Altura: 1,70 cm</p>
+        <p>Sexo: Masculino</p>
+        <p>Raça Humano/Demônio</p>
+        <p>Profissão: Caçador de Demônios</p>
+        <p>Transformação: Summon Devil Trigger</p>
+        <p>Linhagem: Sparda</p>
+        </div>
+        <div className="historia">
+            <h1>Historia</h1>
+            <p>
+            Ele é um orfão criado pela ordem,na cidade de Fortuna. Após combater Dante durante um rápido encontro,Nero teve a ingrata tarefa de persegui-lo,após Dante ter assassinado Sanctus.
+            </p>
+
+            <div className="logoMusicDiv">
+            <p>Musica tema: Devil Trigger</p>
+            <img className="logoMusic" src={logoMusic}/>
+            </div>
+        </div>
+        </section>
         </div>
    <Footer />
 </body>

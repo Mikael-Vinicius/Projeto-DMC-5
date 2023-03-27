@@ -22,9 +22,8 @@ function Personagens() {
       
           <link rel="stylesheet" href="App.css"/>
       </head>
-      <body className='personagensBackground'>
         <Header />
-        <div className='boddy'>
+            <div>
           <div id="characters-box">
               <ul id="characters-list">
                   <li id='NeroColor'className="transform: translate(0px, 0px); opacity: 1;">
@@ -33,17 +32,17 @@ function Personagens() {
                       </a>
                   </li>
                   <li id="DanteColor" className="transform: translate(0px, 0px); opacity: 1;">
-                      <a href="" style={{backgroundImage: `url(${DanteImg})`}}>
+                      <a href="/personagens/dante" style={{backgroundImage: `url(${DanteImg})`}}>
                           <span>DANTE</span>
                       </a>
                   </li>
                   <li id="VColor" className="transform: translate(0px, 0px); opacity: 1;">
-                      <a href="" style={{backgroundImage: `url(${vImage})`}}>
+                      <a href="/personagens/v" style={{backgroundImage: `url(${vImage})`}}>
                           <span>V</span>
                       </a>
                   </li>
                   <li id="VergilColor" className="transform: translate(0px, 0px); opacity: 1;">
-                      <a href="" style={{backgroundImage: `url(${VergilImg})`}}>
+                      <a href="/personagens/vergil" style={{backgroundImage: `url(${VergilImg})`}}>
                           <span>VERGIL</span>
                       </a>
                   </li>
@@ -52,7 +51,6 @@ function Personagens() {
           <script src="./src/js/index.js"></script>
           <Footer />
           </div>
-      </body>
       </html>
     );
   }
